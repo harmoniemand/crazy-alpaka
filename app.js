@@ -1,9 +1,4 @@
 
-
-
-
-
-
 var alpaka = function (size) {
 
     var self = this;
@@ -17,8 +12,6 @@ var alpaka = function (size) {
     self.colorNodes = [];
     self.whiteNodes = [];
     self.blackNodes = [];
-
-
 
     self.shape = [
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
