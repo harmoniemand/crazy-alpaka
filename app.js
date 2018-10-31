@@ -33,7 +33,6 @@ var alpaka = function (size) {
     self.pixelsize = Math.floor(self.width / self.shape[0].length);
     self.height = (self.pixelsize) * self.shape.length;
 
-
     self.svgns = "http://www.w3.org/2000/svg";
     self.svg = document.createElementNS(self.svgns, "svg");
     self.svg.setAttributeNS(null, "width", self.width);
@@ -61,7 +60,6 @@ var alpaka = function (size) {
         }
 
         document.getElementById("container").appendChild(self.svg);
-
         self.redo();
     };
 
@@ -92,7 +90,6 @@ var alpaka = function (size) {
         window.setTimeout(self.redo, Math.floor(Math.random() * 2000));
     }
 }
-
 
 var countW = Math.floor(window.innerWidth / 130);
 var countH = Math.floor(window.innerHeight / 120) + 1;
